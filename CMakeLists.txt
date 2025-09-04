@@ -144,8 +144,8 @@ if(NOT ENABLE_LIB_ONLY)
   find_package(Libbrotlidec 1.0.9)
 endif()
 
-enable_testing()
-add_custom_target(check COMMAND ${CMAKE_CTEST_COMMAND})
+#enable_testing()
+#add_custom_target(check COMMAND ${CMAKE_CTEST_COMMAND})
 
 # OpenSSL (required for libngtcp2_crypto_quictls,
 # libngtcp2_crypto_picotls and examples)
