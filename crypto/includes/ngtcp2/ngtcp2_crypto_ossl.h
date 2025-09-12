@@ -27,7 +27,7 @@
 
 #include <ngtcp2/ngtcp2.h>
 
-#include <openssl/ssl.h>
+#include <attainsossl/openssl/ssl.h>
 
 #ifdef __cplusplus
 extern "C" {

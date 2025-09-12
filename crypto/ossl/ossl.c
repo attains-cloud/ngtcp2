@@ -31,12 +31,12 @@
 #include <ngtcp2/ngtcp2_crypto.h>
 #include <ngtcp2/ngtcp2_crypto_ossl.h>
 
-#include <openssl/ssl.h>
-#include <openssl/evp.h>
-#include <openssl/kdf.h>
-#include <openssl/rand.h>
-#include <openssl/err.h>
-#include <openssl/core_names.h>
+#include <attainsossl/openssl/ssl.h>
+#include <attainsossl/openssl/evp.h>
+#include <attainsossl/openssl/kdf.h>
+#include <attainsossl/openssl/rand.h>
+#include <attainsossl/openssl/err.h>
+#include <attainsossl/openssl/core_names.h>
 
 #include "ngtcp2_macro.h"
 #include "shared.h"
